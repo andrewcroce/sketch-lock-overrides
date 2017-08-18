@@ -1,0 +1,34 @@
+{
+	"name": "lock-overrides",
+	"version": "0.0.1",
+	"description": "A Sketch plugin to lock symbol overrides, allowing more control over nested symbol configuration.",
+	"main": "index.js",
+	"scripts": {
+		"test": "test",
+		"build": "skpm build",
+		"publish": "skpm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/andrewcroce/sketch-lock-overrides.git"
+	},
+	"keywords": [
+		"overrides"
+	],
+	"author": "Andrew Croce",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/andrewcroce/sketch-lock-overrides/issues"
+	},
+	"homepage": "https://github.com/andrewcroce/sketch-lock-overrides#readme",
+	"engines": {
+		"sketch": ">=3.0"
+	},
+	"devDependencies": {
+		"skpm": "^0.10.5"
+	},
+	"skpm": {
+		"manifest": "src/manifest.json",
+		"main": "plugin.sketchplugin"
+	}
+}
